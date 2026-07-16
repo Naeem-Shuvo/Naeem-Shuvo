@@ -139,7 +139,7 @@
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=Naeem-Shuvo&theme=dark&no-frame=true&no-bg=false&margin-w=4&row=1&column=7)
+<img src="https://raw.githubusercontent.com/Naeem-Shuvo/Naeem-Shuvo/output-trophy/trophy.svg" alt="Trophies" />
 
 </div>
 
