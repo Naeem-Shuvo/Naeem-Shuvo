@@ -28,6 +28,10 @@ jobs:
 
       - name: Verify trophy.svg was generated
         run: |
+          # Action currently writes to ./trophy.svg; move it into dist for publish step.
+          if [ ! -s dist/trophy.svg ] && [ -s trophy.svg ]; then
+            mv trophy.svg dist/trophy.svg
+          fi
           if [ ! -s dist/trophy.svg ]; then
             echo "::error::dist/trophy.svg was not created by the trophy action. Check the 'Generate trophy SVG' step's logs above for the real failure (bad token scope, API error, etc.)."
             exit 1
