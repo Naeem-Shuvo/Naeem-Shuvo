@@ -1,0 +1,43 @@
+name: 🔄 Update Contributions
+
+on:
+  schedule:
+    - cron: "0 3 * * *"        # every day at 03:00 UTC (09:00 Dhaka time)
+  workflow_dispatch:            # allow manual runs from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_contributions.py"
+      - ".github/workflows/update-contributions.yml"
+
+permissions:
+  contents: write               # needed to commit the updated README
+
+jobs:
+  update-contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate contributions table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # built-in, no setup needed
+        run: python scripts/update_contributions.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update contributions table 🤖"
+            git push
+          fi
