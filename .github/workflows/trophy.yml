@@ -16,12 +16,24 @@ jobs:
   generate-trophy:
     runs-on: ubuntu-latest
     steps:
+      - name: Create output directory
+        run: mkdir -p dist   # the trophy action doesn't create this itself, so pre-create it
+
       - name: Generate trophy SVG (self-hosted, no third-party service)
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: Naeem-Shuvo
           output_path: dist/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify trophy.svg was generated
+        run: |
+          if [ ! -s dist/trophy.svg ]; then
+            echo "::error::dist/trophy.svg was not created by the trophy action. Check the 'Generate trophy SVG' step's logs above for the real failure (bad token scope, API error, etc.)."
+            exit 1
+          fi
+          echo "trophy.svg generated successfully:"
+          ls -la dist/
 
       - name: Push trophy to its own output branch
         uses: crazy-max/ghaction-github-pages@v4
