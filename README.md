@@ -1,24 +1,160 @@
-# 💫 About Me:
-🚀 About Me<br><br>🎓 CSE undergraduate at BUET<br>💻 Passionate about algorithms, backend engineering, and AI<br>🔬 Currently exploring Computer Vision, Object Detection, Image Segmentation, and ML Systems<br>📚 I enjoy learning concepts from first principles instead of relying solely on abstractions<br>⚡ Interested in research, open-source, and building real-world software<br>🌱 Always learning something new and turning ideas into projects
+<div align="center">
 
+<!-- ═══════════════════════ HEADER ═══════════════════════ -->
 
-## 🌐 Socials: [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)]([https://facebook.com/Naeem Shuvo](https://www.facebook.com/naeem.shuvo.507)) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/n3m0_504) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:2305146@ugrad.cse.buet.ac.bd) 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Md+Jannatun+Naeem+Shuvo+%F0%9F%91%8B;CSE+Undergraduate+%40+BUET;Backend+%7C+Algorithms+%7C+AI;Learning+from+First+Principles)](https://github.com/Naeem-Shuvo)
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=flat&logo=windows-terminal&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=flat&logo=nodemon&logoColor=%BBDEAD) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=flat&logo=javafx&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=flat&logo=steam&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=Twilio&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Naeem-Shuvo&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Naeem-Shuvo&theme=blue_navy&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Naeem-Shuvo&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<img src="https://komarev.com/ghpvc/?username=Naeem-Shuvo&label=Profile%20Views&color=2f81f7&style=flat" alt="Profile Views" />
+<img src="https://img.shields.io/github/followers/Naeem-Shuvo?label=Followers&style=flat&color=2f81f7" alt="GitHub Followers" />
+<img src="https://img.shields.io/github/stars/Naeem-Shuvo?label=Stars&style=flat&color=2f81f7" alt="GitHub Stars" />
+
+</div>
+
+---
+
+## 💫 About Me
+
+- 🎓 **CSE undergraduate at BUET** (Bangladesh University of Engineering and Technology)
+- 💻 Passionate about **algorithms, backend engineering, and AI**
+- 🔬 Currently exploring **Computer Vision, Object Detection, Image Segmentation, and ML Systems**
+- 📚 I enjoy learning concepts **from first principles** instead of relying solely on abstractions
+- ⚡ Interested in **research, open-source, and building real-world software**
+- 🌱 Always learning something new and turning ideas into projects
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2305146@ugrad.cse.buet.ac.bd)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/naeem.shuvo.507)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/n3m0_504)
+[![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naeem-Shuvo)
+
+</div>
+
+## 💻 Tech Stack
+
+<details open>
+<summary><b>👨‍💻 Languages</b></summary>
+<br>
+
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🛠️ Backend & Databases</b></summary>
+<br>
+
+![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404d59?style=flat&logo=express&logoColor=61DAFB)
+![Nodemon](https://img.shields.io/badge/Nodemon-323330?style=flat&logo=nodemon&logoColor=BBDEAD)
+![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-FF0000?style=flat&logo=javafx&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>📊 Data Science & ML</b></summary>
+<br>
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=flat&logo=matplotlib&logoColor=black)
+
+</details>
+
+<details open>
+<summary><b>⚙️ Tools & Platforms</b></summary>
+<br>
+
+![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=flat&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=flat&logo=windows-terminal&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat&logo=canva&logoColor=white)
+
+</details>
+
+## 🚀 My Contributions
+
+<!-- This section is auto-generated by .github/workflows/update-contributions.yml — do not edit by hand -->
+<!-- CONTRIBUTIONS:START -->
+
+| Repository | Description | Language | ⭐ | PRs | Commits | Type |
+|---|---|---|---|---|---|---|
+| [fanzzum/shebok.ai](https://github.com/fanzzum/shebok.ai) | — | Python | 0 | 1 | 1 | 🌍 Open Source |
+| [Naeem-Shuvo/LEARNING-JS](https://github.com/Naeem-Shuvo/LEARNING-JS) | — | JavaScript | 0 | 0 | 46 | 🏠 Personal |
+| [Naeem-Shuvo/BUET-UG-ACADEMIC](https://github.com/Naeem-Shuvo/BUET-UG-ACADEMIC) | — | C++ | 0 | 0 | 25 | 🏠 Personal |
+| [Naeem-Shuvo/SAROTHI-SHEBA](https://github.com/Naeem-Shuvo/SAROTHI-SHEBA) | — | JavaScript | 2 | 4 | 21 | 🏠 Personal |
+| [Naeem-Shuvo/ICT_Fest_Hackathon_Preliminary](https://github.com/Naeem-Shuvo/ICT_Fest_Hackathon_Preliminary) | — | Python | 0 | 0 | 2 | 🏠 Personal |
+| [Naeem-Shuvo/kLudge](https://github.com/Naeem-Shuvo/kLudge) | kothin project | — | 0 | 0 | 1 | 🏠 Personal |
+
+*Last updated: 2026-07-17 (auto-refreshes daily via GitHub Actions)*
+
+<!-- CONTRIBUTIONS:END -->
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.shion.dev/api?username=Naeem-Shuvo&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Naeem-Shuvo&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+
+<img src="https://streak-stats.demolab.com/?user=Naeem-Shuvo&theme=blue_navy&hide_border=false" alt="GitHub Streak" />
+
+</div>
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Naeem-Shuvo&theme=github-compact&hide_border=false&area=true)](https://github.com/Naeem-Shuvo)
+
+</div>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Naeem-Shuvo/Naeem-Shuvo/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Naeem-Shuvo/Naeem-Shuvo/output/github-snake.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Naeem-Shuvo/Naeem-Shuvo/output/github-snake.svg" />
+</picture>
+
+</div>
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Naeem-Shuvo&theme=dark&no-frame=true&no-bg=false&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+<div align="center">
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Naeem-Shuvo&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![Trophies](https://github-profile-trophy.vercel.app/?username=Naeem-Shuvo&theme=dark&no-frame=true&no-bg=false&margin-w=4&row=1&column=7)
 
+</div>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## ✍️ Random Dev Quote
+
+<div align="center">
+
+![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Learning something new every day and turning ideas into projects."* 🌱
+
+</div>
