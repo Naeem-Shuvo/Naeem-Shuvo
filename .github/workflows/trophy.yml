@@ -1,0 +1,32 @@
+name: 🏆 Generate Trophies
+
+on:
+  schedule:
+    - cron: "30 0 * * *"       # daily at 00:30 UTC, offset from the snake job
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/trophy.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-trophy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate trophy SVG (self-hosted, no third-party service)
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: Naeem-Shuvo
+          output_path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push trophy to its own output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-trophy   # separate from the snake's "output" branch
+          build_dir: dist                # so the two workflows never overwrite each other
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
