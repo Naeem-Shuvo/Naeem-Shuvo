@@ -94,13 +94,13 @@
 | Repository | Description | Language | ⭐ | PRs | Commits | Type |
 |---|---|---|---|---|---|---|
 | [fanzzum/shebok.ai](https://github.com/fanzzum/shebok.ai) | — | TypeScript | 3 | 1 | 1 | 🌍 Open Source |
-| [Naeem-Shuvo/LEARNING-JS](https://github.com/Naeem-Shuvo/LEARNING-JS) | — | JavaScript | 0 | 0 | 55 | 🏠 Personal |
+| [Naeem-Shuvo/LEARNING-JS](https://github.com/Naeem-Shuvo/LEARNING-JS) | — | JavaScript | 0 | 2 | 55 | 🏠 Personal |
 | [Naeem-Shuvo/SAROTHI-SHEBA](https://github.com/Naeem-Shuvo/SAROTHI-SHEBA) | — | JavaScript | 2 | 4 | 21 | 🏠 Personal |
 | [Naeem-Shuvo/BUET-UG-ACADEMIC](https://github.com/Naeem-Shuvo/BUET-UG-ACADEMIC) | — | C++ | 0 | 0 | 25 | 🏠 Personal |
+| [Naeem-Shuvo/kLudge](https://github.com/Naeem-Shuvo/kLudge) | kothin project | — | 0 | 1 | 1 | 🏠 Personal |
 | [Naeem-Shuvo/ICT_Fest_Hackathon_Preliminary](https://github.com/Naeem-Shuvo/ICT_Fest_Hackathon_Preliminary) | — | Python | 0 | 0 | 2 | 🏠 Personal |
-| [Naeem-Shuvo/kLudge](https://github.com/Naeem-Shuvo/kLudge) | kothin project | — | 0 | 0 | 1 | 🏠 Personal |
 
-*Last updated: 2026-07-17 (auto-refreshes daily via GitHub Actions)*
+*Last updated: 2026-07-18 (auto-refreshes daily via GitHub Actions)*
 
 <!-- CONTRIBUTIONS:END -->
 
