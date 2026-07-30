@@ -24,7 +24,7 @@ jobs:
         with:
           username: Naeem-Shuvo
           file: dist/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TROPHY_TOKEN }}
 
       - name: Verify the SVG was produced
         run: |
