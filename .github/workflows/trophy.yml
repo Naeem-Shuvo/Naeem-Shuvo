@@ -2,7 +2,7 @@ name: 🏆 Generate Trophies
 
 on:
   schedule:
-    - cron: "30 0 * * *"       # daily at 00:30 UTC, offset from the snake job
+    - cron: "30 0 * * *"        # daily at 00:30 UTC
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,33 +16,36 @@ jobs:
   generate-trophy:
     runs-on: ubuntu-latest
     steps:
-      - name: Create output directory
-        run: mkdir -p dist   # the trophy action doesn't create this itself, so pre-create it
+      - name: Create output folder
+        run: mkdir -p dist
 
-      - name: Generate trophy SVG (self-hosted, no third-party service)
+      - name: Generate trophy SVG
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: Naeem-Shuvo
           output_path: dist/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Verify trophy.svg was generated
+      - name: Locate the SVG wherever the action actually wrote it
         run: |
-          # Action currently writes to ./trophy.svg; move it into dist for publish step.
-          if [ ! -s dist/trophy.svg ] && [ -s trophy.svg ]; then
-            mv trophy.svg dist/trophy.svg
+          if [ ! -s dist/trophy.svg ]; then
+            echo "dist/trophy.svg missing — searching the workspace..."
+            found=$(find "$GITHUB_WORKSPACE" -name 'trophy.svg' -not -path '*/dist/*' | head -n 1)
+            if [ -n "$found" ]; then
+              echo "Found at: $found"
+              mv "$found" dist/trophy.svg
+            fi
           fi
           if [ ! -s dist/trophy.svg ]; then
-            echo "::error::dist/trophy.svg was not created by the trophy action. Check the 'Generate trophy SVG' step's logs above for the real failure (bad token scope, API error, etc.)."
+            echo "::error::No trophy.svg was produced. Check the 'Generate trophy SVG' step logs above."
             exit 1
           fi
-          echo "trophy.svg generated successfully:"
           ls -la dist/
 
       - name: Push trophy to its own output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output-trophy   # separate from the snake's "output" branch
-          build_dir: dist                # so the two workflows never overwrite each other
+          target_branch: output-trophy
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
