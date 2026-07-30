@@ -23,21 +23,13 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: Naeem-Shuvo
-          output_path: dist/trophy.svg
+          file: dist/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Locate the SVG wherever the action actually wrote it
+      - name: Verify the SVG was produced
         run: |
           if [ ! -s dist/trophy.svg ]; then
-            echo "dist/trophy.svg missing — searching the workspace..."
-            found=$(find "$GITHUB_WORKSPACE" -name 'trophy.svg' -not -path '*/dist/*' | head -n 1)
-            if [ -n "$found" ]; then
-              echo "Found at: $found"
-              mv "$found" dist/trophy.svg
-            fi
-          fi
-          if [ ! -s dist/trophy.svg ]; then
-            echo "::error::No trophy.svg was produced. Check the 'Generate trophy SVG' step logs above."
+            echo "::error::dist/trophy.svg was not created. Check the 'Generate trophy SVG' step logs above."
             exit 1
           fi
           ls -la dist/
